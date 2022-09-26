@@ -1,0 +1,26 @@
+<!--
+- prompt 함수					
+	내용								설명
+   메세지			대화상자에 나타날 설명입니다.
+   초기값			텍스트박스에 기본적으로 나타나는 문자열이나 숫자를 설정합니다
+					텍스트박스에 아무런 내용이 없도록 하려면 [초기값] ""로 합니다
+	반환값			텍스트박스에 입력된 내용이 [반환값]에 들어갑니다. 반환값은 문자열로 처리합니다
+-->
+
+<html>
+ <head>
+
+  <title>대화상자 - prompt</title>
+ </head>
+ <body>
+  <h1> prompt 함수를 사용하는 예제 </h1>
+ <br>
+
+ <script language = "javascript">
+
+ var name = prompt("당신이 좋아하는 연예인은?", "BTS");
+ //document.write(name);
+ document.write("아하~~~ 당신은 " + name + "  을/를 좋아하시는군요..");
+ </script>
+ </body>
+</html>
